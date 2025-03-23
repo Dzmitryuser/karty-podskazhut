@@ -1,3 +1,4 @@
+/* Задаем отступы для секции с контентом*/
 .content-section {
   padding-inline-start: 5vw;
   padding-inline-end: 5vw;
@@ -17,13 +18,11 @@
   text-align: center;
   color: var(--text-color);
   font-weight: 600;
-  max-inline-size: 100vw;
 }
 
 .header__title {
   font-size: clamp(3.75rem, 2.5rem + 5.556vw, 7.5rem);
   margin-block-end: 40px;
-  max-inline-size: 100vw;
 }
 
 /* Меню хедера */
@@ -56,6 +55,7 @@
   background-color: inherit;
 }
 
+/* стилизуем состояния элементов (ссылки, кнопки)*/
 .header__theme-button_type_light:hover,
 .header__theme-button_type_dark:hover {
   cursor: pointer;
@@ -98,6 +98,7 @@
   text-decoration-color: var(--link-hover-color);
 }
 
+/* Стилизуем секцию с контентом*/
 .content__title {
   margin-block-start: 7%;
   margin-block-end: 2.5%;
@@ -163,6 +164,7 @@
   max-inline-size: 100%;
 }
 
+/* Стилизуем карточку*/
 .content__card {
   aspect-ratio: 4 / 3;
   margin-block-start: 7%;
@@ -197,6 +199,7 @@
   bottom: 17%;
 }
 
+/* Стилизуем футур*/
 .footer {
   margin-block-start: 10%;
   padding: 2.5%;
@@ -207,6 +210,7 @@
   max-inline-size: 100%;
 }
 
+/* Делаем буквицу */
 .content__text-block .content__paragraph:first-of-type::first-letter {
   background-color: var(--accent-color);
   font-size: 30px;
@@ -218,6 +222,7 @@
   margin-right: 6px;
 }
 
+/* Стилизуем элементы для темной темы */
 .theme_dark .header__theme-button_is-active::after {
   background-image: url(../images/pattern.svg);
 }
@@ -236,6 +241,7 @@
   background-image: url(../images/marker-dark.svg);
 }
 
+/* Делаем адаптацию для маленьких дисплеев*/
 @media (width <= 380px) {
   .header__theme-toggler {
     padding-left: 10px;
@@ -248,10 +254,7 @@
   }
 
   .content__figure {
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    inline-size: 100vw;
-    max-inline-size: 100%;
+    margin-inline: auto;
   }
 
   .header__title {
@@ -260,7 +263,6 @@
   }
 
   .content__paragraph {
-    display: inline-block;
     max-inline-size: 100%;
   }
 
