@@ -1,0 +1,19 @@
+.page {
+  --bg-color: #f3efec;
+  --text-color: #312a4e;
+  --accent-color: #ffab6b;
+  --main-font: Raleway;
+  --accent-font: "STIX Two Text";
+  --border-color: #312a4e;
+  --link-hover-color: rgba(49, 42, 78, 0.5);
+}
+
+.theme_dark {
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
+  --main-font: Raleway;
+  --accent-font: "STIX Two Text";
+  --border-color: #b3b3b3;
+  --link-hover-color: rgba(179, 179, 179, 0.5);
+}
