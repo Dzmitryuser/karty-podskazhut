@@ -158,7 +158,6 @@
   position: relative;
   margin-block-start: 7%;
   margin-block-end: 7%;
-  margin-inline-start: -5vw;
   inline-size: calc(100% + 10vw);
   border-block-end: 1px solid var(--border-color);
   max-inline-size: 100%;
@@ -239,7 +238,7 @@
 
 @media (width <= 380px) {
   .header__theme-toggler {
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 0;
     gap: 5px;
   }
@@ -251,14 +250,21 @@
   .content__figure {
     margin-inline-start: auto;
     margin-inline-end: auto;
+    inline-size: 100vw;
+    max-inline-size: 100%;
   }
 
   .header__title {
     display: inline-block;
     max-inline-size: 100%;
   }
-}
 
-* {
-  outline: 1px solid red;
+  .content__paragraph {
+    display: inline-block;
+    max-inline-size: 100%;
+  }
+
+  .content__card {
+    padding-inline: 22px;
+  }
 }
