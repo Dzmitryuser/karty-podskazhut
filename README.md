@@ -4,7 +4,7 @@ https://github.com/Dzmitryuser/karty-podskazhut.git
 
 # Ссылка GitHub Pages
 
-https://dzmitryuser.github.io/slozhno-sosredotochitsya-fd/
+https://dzmitryuser.github.io/karty-podskazhut/
 
 # ссылка на макет
 
