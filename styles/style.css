@@ -266,7 +266,7 @@
     max-inline-size: 100%;
   }
 
-  .content__card {
-    padding-inline: 22px;
+  .content__card-title {
+    padding-inline: 35px;
   }
 }
